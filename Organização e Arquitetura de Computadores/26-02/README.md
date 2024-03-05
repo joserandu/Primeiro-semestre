@@ -1,5 +1,7 @@
 <h1>_Nome da aula_ - 26/02/2024</h1>
 
+<b>OBSERVAÇÃO: A aula está incompleta por falta de acesso aos slides, pois as anotações foram feitas como complementos à esse material da aula.</b>
+
 <h3>Sobre as aulas</h3>
 
 - No primeiro slide tem a referência das aulas.
