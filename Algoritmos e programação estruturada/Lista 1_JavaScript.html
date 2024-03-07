@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de exercicios 1</title>
+
+	
+
+</head>
+<body>
+
+	<script>
+		
+	document.write('Exercício 1:')
+	document.write('<br />')
+		
+		/*
+		Crie um programa que permita fazer a conversão cambial entre Reais e Dólares.
+		Considere como taxa de câmbio US$1,00 = R$2,40. Leia um valor em Reais pelo
+		teclado e mostre o correspondente em Dólares.
+		*/
+
+		var reais = 50
+
+		var dolares = reais * 2.4
+
+		document.write(reais + ' reais equivalem a ' + dolares + ' dolares.')
+
+	document.write('<hr />')
+	document.write('Exercício 2:')
+	document.write('<br />')
+
+		/*Crie um programa que permita fazer a conversão cambial entre Dólares e Reais.
+		Considere como taxa de câmbio US$1,00 = R$2,40. Leia um valor em Dólares pelo
+		teclado e mostre o correspondente em Reais.*/
+
+		var dolares2 = 50
+
+		var reais2 = dolares / 2.4
+
+		document.write(dolares + ' dolares equivalem a ' + reais + ' reais.')
+
+	document.write('<hr />')
+	document.write('Exercício 3')
+	document.write('<br />')
+
+		
+		/*Calcule quantos azulejos são necessários para azulejar uma parede. É necessário
+		conhecer a altura da parede (AP), a sua largura (LP), e a altura do azulejo (AA) e sua
+		largura (LA). Leia os dados através do teclado.*/
+
+		var ap = 2.5
+		var lp = 6
+		var aa = 0.5
+		var la = 1
+
+		var area_da_parede = ap * lp
+		var area_do_azulejo = aa * la
+
+		var quantidade_azulejos = area_da_parede / area_do_azulejo
+
+		document.write('A quantidade mínima de azulejos necessários é ' + quantidade_azulejos)
+
+	document.write('<hr />')
+	document.write('Exercício 4:')
+	document.write('<br />')
+
+		/*Faça um programa que, a partir das medidas dos lados de um retângulo, lidos via
+		teclado, calcule a área e o perímetro deste retângulo.*/
+
+		var a = 50
+		var b = 100
+
+		area_retangulo = a * b
+		perimetro_retangulo = 2 * a + 2 * b
+
+		document.write('A área do retangulo é ' + area_retangulo + ', e o perimetro vale ' + perimetro_retangulo)
+
+	document.write('<hr />')
+	document.write('Exercício 5:')
+	document.write('<br />')
+
+		/*A condição física de uma pessoa pode ser medida com base no cálculo do IMC,
+		Índice de Massa Corporal, o qual é calculado dividindo-se a massa da pessoa ( em kg)
+		pela altura da mesma (h em m) elevada ao quadrado (IMC= m/h2). Escreva um
+		programa que leia a massa e a altura de uma pessoa, calcule e mostre o IMC.*/
+
+		var h = 1.70
+		var m = 100
+
+		var imc = m / h ** 2
+
+		document.write('O imc da pessoa é ' + imc)
+
+	document.write('<hr />')
+	document.write('Exercício 6:')
+	document.write('<br />')
+
+		/*Dado o valor do raio (r) de uma circunferência, elaborar um programa para calcular
+		e imprimir sua área (A) e o seu comprimento (C). A fórmula da área do círculo é A=_ r2
+		e do comprimento é C=2_ r.*/
+
+		var r = 3
+
+		var area_circunferencia = 3.14 * r ** 2
+		var comprimento_circunferencia = 2 * 3.14 * r
+
+		document.write('A area da circunferência é de ' + area_circunferencia + ' e o seu comprimento é de ' + comprimento_circunferencia)
+
+	document.write('<hr />')
+	document.write('Exercício 7:')
+	document.write('<br />')	
+
+		/*Elaborar um programa para calcular e exibir o volume (V) de uma esfera e a área
+		(A) de sua superfície, dado o valor de seu raio (R). A fórmula do volume da esfera é
+		V=4/3 _ R3 e da área é A=4_ R2.*/
+
+		var r2 = 2
+
+		var volume_esfera = (4 / 3) * 3.14 * r2 ** 3
+		var area_esfera = 4 * 3.14 * r2 ** 2
+
+		document.write('O volume da esfera é de ' + volume_esfera + 'um³ e a área da superfície é ' + area_esfera)
+
+	document.write('<hr />')
+	document.write('Exercício 8:')
+	document.write('<br />')	
+
+		/*Faça um programa para calcular a média final de um aluno, supondo-se que há
+		quatro notas bimestrais durante o ano e que esta é calculada através de uma média
+		aritmética simples (todos os bimestres têm o mesmo peso).*/
+
+		var n1 = 8
+		var n2 = 3
+		var n3 = 5
+		var n4 = 10
+
+		var media = (n1 + n2 + n3 + n4) / 4
+
+		document.write('A média do aluno foi: ' + media)
+
+	document.write('<hr />')
+	document.write('Exercício 9:')
+	document.write('<br />')	
+
+		/*O critério de avaliação semestral de determinada escola segue a regra:
+		P1 – primeira avaliação do semestre.
+		P2 – segunda avaliação do semestre.
+		Ativ – nota atribuída pelas atividades realizadas no semestre.
+		Média = P1 x 4 + P2 x 4 + Ativ x 2
+				--------------------------
+							10
+
+		Escreva um programa que leia as notas das provas (P1 e P2) e da atividade (Ativ),
+		calcule e mostre a média, seguindo o cálculo acima.*/
+
+		var p1 = 5
+		var p2 = 3
+		var ativ = 4
+
+		var media_ponderada = (p1 * 4 + p2 * 4 + ativ * 2) / 10
+
+		document.write('A média ponderada do aluno foi: ' + media_ponderada)
+
+	document.write('<hr />')
+	document.write('Exercício 10:')
+	document.write('<br />')
+
+		/*Elaborar um programa para receber valores, via teclado, nas variáveis "a" e "b".
+		Após isto, o programa, utilizando-se de uma 3a. variável "c", deverá trocar o conteúdo
+		das variáveis "a" e "b".*/	
+
+		var a = 5
+		var b = 14
+
+		var c = a
+		var a = b
+		var b = c
+
+		document.write('a=' + a + ', b=' + b)
+
+	document.write('<hr />')
+	document.write('Exercício 11:')
+	document.write('<br />')	
+
+		/*(DESAFIO) Idem o programa anterior, sem utilizar-se de uma 3a. variável.*/
+
+		var a = 4
+		var b = 7
+
+		var a = a + b
+		var b = a - b
+		var a = a - b
+
+		document.write('a=' + a + ', b=' + b)
+
+	document.write('<hr />')
+	document.write('Exercício 12:')
+	document.write('<br />')	
+
+		/*Elaborar um programa que receba, via teclado, os valores do espaço percorrido e
+		do tempo gasto por um veículo em movimento, para calcular e apresentar em tela sua
+		velocidade média.*/
+
+		var s = 120
+		var t = 2
+
+		var vm = s / t
+
+		document.write('A velocidade média do veículo foi de: ' + vm + 'km/h')
+
+	document.write('<hr />')
+	document.write('Exercício 13:')
+	document.write('<br />')	
+
+		/*Num laboratório de física, em uma experiência de Movimento Uniformemente
+		Variado, foram encontrados os seguintes valores: s0=2m, v0=3m/s, a=10m/s2.
+		Digitado o valor de t (segundos), apresentar em tela o valor de s (metros). Dada a
+		fórmula:
+		s = s0 + v0 . t + 1⁄2 . a . t2*/
+
+		var t = 20
+
+		var s = 2 + 3 * t + (1 / 2) * 10 * t ** 2
+
+		document.write('O espaço (s) percorrido pelo objeto foi de ' + s + 'km.')
+
+	</script>
+
+</body>
+</html>
