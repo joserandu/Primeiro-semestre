@@ -110,11 +110,278 @@ Lembre-se que, matemáticamente, <b>1 byte pode ter 255 valores</b>, pois, como 
 
 ![ASCII](https://github.com/joserandu/Primeiro-semestre/assets/134299499/9ebf1e27-abe1-4e6c-9eec-e2b003c48ff6)
 
+Essa tabela mostra os valores que os decimais em fromato <b>char</b>, que são os números em formatos de strings, que assumem valores diferentes dos inteiros.
+
+- Obs: Na hora de programar em C, para declarar variáveis que são números que não passam de 1 byte (de 0 a 255), como em um input destinado à idade, é melhor usar a declaração de variável char do que int que tem de 2 a 4 bytes, que podem aguentar valores de 0 a 65535 ou até 136070.
+
+## Exercícios:
+
+Converta de decimal para binário:
+
+<table>
+  <tr>
+    <td><b>Decimais</b></td>
+    <td><b>128</b></td>
+    <td><b>32</b></td>
+    <td><b>64</b></td>
+    <td><b>16</b></td>
+    <td><b>8</b></td>
+    <td><b>4</b></td>
+    <td><b>2</b></td>
+    <td><b>1</b></td>
+  </tr>
+  <tr>
+    <td><b>132</b></td>
+    <td><b>1</b></td>
+    <td><b>0</b></td>
+    <td><b>0</b></td>
+    <td><b>0</b></td>
+    <td><b>0</b></td>
+    <td><b>1</b></td>
+    <td><b>0</b></td>
+    <td><b>0</b></td>
+  </tr>
+  <tr>
+    <td>249</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>104</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>83</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>223</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>141</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+</table>
+
+Converta de binário para decimal:
+
+<table>
+  <tr>
+    <td><b>Decimal</b></td>
+    <td><b>128</b></td>
+    <td><b>64</b></td>
+    <td><b>32</b></td>
+    <td><b>16</b></td>
+    <td><b>8</b></td>
+    <td><b>4</b></td>
+    <td><b>2</b></td>
+    <td><b>1</b></td>
+  </tr>
+  <tr>
+    <td>182</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>105</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>142</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>210</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>115</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>136</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>0</td>
+  </tr>
+</table>
+
+## Hexadecimal
+
+Cabeçalho da Tabela:
+
+<table>
+  <tr>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+</table>
+
+Simbolos: 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F.
+    - Sendo A=10, B=11, C=12, D=13, E=14, F=15.
+    - Vamos separar os 8 números em 2 partes de quatro e vamos nomea-las:
+        - 0101 1110
+        -  5    E
+        - 5E, pois 13 é igual a E.
+
+Usamos essa codificação em linguagem Assembly.
+
 ![aula2-BasesNumericas_page-0010](https://github.com/joserandu/Primeiro-semestre/assets/134299499/c3094b9f-77b3-4bb1-8fff-3e4c3146658c)
 ![aula2-BasesNumericas_page-0011](https://github.com/joserandu/Primeiro-semestre/assets/134299499/97c69e3d-0833-4729-acf7-40060f62eb31)
+
+Exercícios:
+
+Convertendo de hexadecimal para binário:
+
+<table>
+  <tr>
+    <td>Hexadecimal</td>
+    <td>128</td>
+    <td>64</td>
+    <td>32</td>
+    <td>16</td>
+    <td>8</td>
+    <td>4</td>
+    <td>2</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>F3</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>2D</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+  <tr>
+    <td>CE</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td>1</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+</table>
+
 ![aula2-BasesNumericas_page-0012](https://github.com/joserandu/Primeiro-semestre/assets/134299499/06d453b1-6687-4e3f-8806-fa4c9f69256f)
+
+## Portas lógicas
+
+- Not 1 = 0
+- And:
+    - 1101
+    - 0110
+    - <b>0100</b> => esse é o resultado porque apenas com ambos sendo 1, é possível a verdade.
+- Or:
+    - 1111 => Resultado da mesma expressão acima.
+
+Outras Portas:
+- Nand
+    - Nega o and
+- Nor
+    - Nega o or
+- Xor
+    - Ou exclusivo
+- Xor
+    - 
 
 ## Considerações finais
 
-A ideia dessa disciplina é fazer o aluno entender como funciona a máquina que ele utilizará como material de trabalho, para não ser um profissional medíocre em sua área.
-
+- A ideia dessa disciplina é fazer o aluno entender como funciona a máquina que ele utilizará como material de trabalho, para não ser um profissional medíocre em sua área.
