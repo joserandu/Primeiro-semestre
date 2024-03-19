@@ -77,6 +77,34 @@ int main(void){  // Void é uma palavra reservada que indica "vazio".
 	
 	// Com números muito grandes acaba dando erro.
 	
-	return 0;
+	printf("Diferenciando par e ímpar ---------------------------------------------\n\n");
 	
+	// Lógica do crestão
+	int A, B, C;
+	
+	printf("Digite um número: ");
+	scanf("%i", &A);
+	
+	B = A/2;
+	C = B*2;
+	
+	if (C == A) {
+		printf("O número é par.");
+	} else {
+		printf("O número é impar.");
+	}
+	
+	// Usando módulo
+	int a;
+	
+	printf("Digite um número: ");
+	scanf("%i", &a);
+	
+	if (a % 2 == 0) {
+		printf("O número é par.\n");
+	} else {
+		printf("O número é ímpar.\n")
+	}
+
+	return 0;
 }
