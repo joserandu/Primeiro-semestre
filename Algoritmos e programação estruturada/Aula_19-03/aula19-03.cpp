@@ -46,7 +46,8 @@ int main(void){  // Void é uma palavra reservada que indica "vazio".
 	int qtd;
 	
 	strcpy(nome, "André Evandro");
-	qtd = strlen(nome);  // função para mostrar quantos caracteres tem em uma string. (provavelmente vinda da biblioteca string.h
+	
+    qtd = strlen(nome);  // função para mostrar quantos caracteres tem em uma string. (provavelmente vinda da biblioteca string.h
 	printf("%i.\n", qtd);
 	printf("%s.\n", nome);
 	
@@ -89,9 +90,9 @@ int main(void){  // Void é uma palavra reservada que indica "vazio".
 	C = B*2;
 	
 	if (C == A) {
-		printf("O número é par.");
+		printf("O número é par.\n\n");
 	} else {
-		printf("O número é impar.");
+		printf("O número é impar.\n\n");
 	}
 	
 	// Usando módulo
@@ -103,7 +104,7 @@ int main(void){  // Void é uma palavra reservada que indica "vazio".
 	if (a % 2 == 0) {
 		printf("O número é par.\n");
 	} else {
-		printf("O número é ímpar.\n")
+		printf("O número é ímpar.\n");
 	}
 
 	return 0;
