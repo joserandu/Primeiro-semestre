@@ -37,9 +37,3 @@ def main():
 if __name__ == "__main__":
     main()
 
-"""
-
-- Desligar o computador da sala e o projetor.
-- Pegar a lista de chamada 4:50.
-- Falar para o Marcelo que as coisas estão na caixa e tem mais alguma coisa em cima da caixa.
-"""
