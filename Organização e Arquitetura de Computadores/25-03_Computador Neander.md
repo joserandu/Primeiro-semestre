@@ -1,5 +1,7 @@
 # Aula - Computador Neander | 25/03/2024
 
+## Configurações do Neander
+
 - Para acessar o neander, precisa de uma máquina virtual, que no caso é o Q4Wine.
 - O neander é um computador virtual mesmo, ele não existe fisicamente, mas podemos simular.
     - A gente vai escrever os programas diaretamente na memória ram
