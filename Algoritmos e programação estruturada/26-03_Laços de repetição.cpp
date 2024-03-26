@@ -37,8 +37,6 @@ int main(void){
 	
 	Faça um código que leira e calculo a media de duas notas para uma sala com 10 alunos.
 	*/
-
-	/*
 	
 	int numero_alunos, nota;
 	
@@ -52,13 +50,11 @@ int main(void){
 		numero_alunos++;
 	}
 	
-	*/
 	
 	/*
 	Faça um programa que leia números infinitamente e só pare quando o usuário responder a pergunta? "Deseja continuar (S/N)?"
 	*/
 	
-	/*
 	
 	int numero;
 	char parada = 's';
@@ -72,8 +68,6 @@ int main(void){
 		printf("Deseja continuar (s/n): \n");
 		parada = getch();
 	}
-	
-	*/
 	
 	/*
 	Escreva um código que imprima a tabuada de 1 a 10, de forma organizada e clara.
