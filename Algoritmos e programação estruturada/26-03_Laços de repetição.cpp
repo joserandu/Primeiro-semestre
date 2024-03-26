@@ -37,6 +37,7 @@ int main(void){
 	
 	Faça um código que leira e calculo a media de duas notas para uma sala com 10 alunos.
 	*/
+
 	
 	int numero_alunos, nota;
 	
@@ -69,6 +70,7 @@ int main(void){
 		parada = getch();
 	}
 	
+	
 	/*
 	Escreva um código que imprima a tabuada de 1 a 10, de forma organizada e clara.
 	*/
@@ -80,13 +82,66 @@ int main(void){
 	
 	while (primeiro < 11) {
 		
+		segundo = 1;
+
 		while (segundo < 11) {
 			printf("%i x %i = %i \n", primeiro, segundo, primeiro * segundo);
 			segundo++;
 		}
 		
-		segundo = 1;
 		primeiro++;
 	}
 	
+	// do While
+
+
+int num;
+
+do {
+	printf("Digite um número: ");
+	scanf("%i", &num);
+} while (num != 0);
+
+
+// FOR
+
+/*
+for(i =10; i > 0; i++){
+	printf()
+}
+
+// Com dois parametros:
+
+for (i = 10, j = 0, i > j, i--, j++) {
+	
+}
+
+// Com parâmetros vazios
+
+for (; i < 10; i++) {
+	
+}
+*/
+
+
+	
+	int a2, b2;
+
+	for (a2 = 1; a2 < 11; a2++) {
+	
+		for (b2 = 1; b2 < 11; b2++) {
+			printf("%i x %i = %i \n", a2, b2, a2 * b2);
+		}	
+				
+	}	
+	
+
+	
+	int a3;
+	
+	for (a3 = 1000; a3 > -1; a3--) {
+		printf("%i, ", a3);
+	}
+	
+	return 0;	
 }
