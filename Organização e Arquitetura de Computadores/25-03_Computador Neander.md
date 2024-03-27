@@ -23,6 +23,17 @@
   
   ## Slides
 
+
+![aula5b-ComputadorNeander-parte1_page-0001](https://github.com/joserandu/Primeiro-semestre/assets/134299499/50e3d6d3-8ae9-498b-a7d3-0d825d173f2d)
+![aula5b-ComputadorNeander-parte1_page-0002](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d8e87517-0f1f-4ea2-bcba-688b916c808e)
+![aula5b-ComputadorNeander-parte1_page-0003](https://github.com/joserandu/Primeiro-semestre/assets/134299499/dbed4d13-45a2-4f3f-b9e1-296308200550)
+![aula5b-ComputadorNeander-parte1_page-0004](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d5cbd017-bf24-4987-b248-1c3116cea724)
+![aula5b-ComputadorNeander-parte1_page-0005](https://github.com/joserandu/Primeiro-semestre/assets/134299499/94915703-6b90-439b-88ad-7da79f300ecc)
+![aula5b-ComputadorNeander-parte1_page-0006](https://github.com/joserandu/Primeiro-semestre/assets/134299499/2c078c10-52f1-456d-976a-4a6c4ef54fba)
+![aula5b-ComputadorNeander-parte1_page-0007](https://github.com/joserandu/Primeiro-semestre/assets/134299499/b15c46da-a8e6-4120-864f-a3af9acb4fb4)
+![aula5b-ComputadorNeander-parte1_page-0008](https://github.com/joserandu/Primeiro-semestre/assets/134299499/20b4f7c5-1cef-4c40-8df9-f7ec29796b84)
+![aula5b-ComputadorNeander-parte1_page-0009](https://github.com/joserandu/Primeiro-semestre/assets/134299499/06a24c80-6862-48e6-86fb-942de818790c)
+
   Conjunto SET
    
    - O programador desse computador poderia ter usado menos bits para fazer as portas lógicas, mas não importa, está feito.
