@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <locale.h>
+#include <math.h>
 
 int main(void) {
 	setlocale(LC_ALL, "Portuguese");
@@ -22,6 +23,8 @@ int main(void) {
 		}
 	}
 	
+	printf("\n");
+	
 	printf("Exercício 2 -------------------------------------------------\n\n");
 	
 	/*
@@ -37,7 +40,7 @@ int main(void) {
 		soma = soma + number;
 	}
 	
-	printf("%d", soma);
+	printf("%d\n\n", soma);
 	
 	printf("Exercício 3 -------------------------------------------------\n\n");
 	
@@ -55,9 +58,11 @@ int main(void) {
 	printf("Digite um número para ver a sua tabuada: ");
 	scanf("%i", &a);
 	
-	for (b = 1; b < 10; b++) {
+	for (b = 1; b < 11; b++) {
 		printf("%i X %i = %i\n", a, b, a * b);
 	}
+	
+	printf("\n");
 
 	printf("Exercício 4 -------------------------------------------------\n\n");
 
@@ -67,20 +72,32 @@ int main(void) {
 	(N*3, N*3*3, N*3*3*3, etc.)
 	*/
 	
-	int N, resultado;
+	int N, produto;
 	
 	printf("Digite um número: ");
 	scanf("%i", &N);
 	
-	resultado = N;
-	
-	printf("%i", N);
-	
-	for (; resultado < 250; resultado *= 3) {
-		printf("*3");
+	if (N < 50) {
+		for (produto = N; produto < 250; produto *= 3) {
+			printf("%i*k", N);
+		}
 	}
 	
-	printf("\nResultado: %i", resultado);
+	
+	/*
+	for (produto = N; produto < 250; N * 3) {
+		printf("*3");		
+	}
+	*/
+	
+	/*
+	while (produto < 250) {
+		produto = N * 3;
+		printf("*3");		
+	}
+	*/
+	
+	printf(" = %i\n\n", produto);
 	
 	printf("Exercício 5 -------------------------------------------------\n\n");
 	
@@ -92,15 +109,15 @@ int main(void) {
 	
 	int contador;
 	
-	//printf("1");
+	printf("1");
 	
-	for (contador = 2, contador < 200, contador++) {
+	for (contador = 2; contador < 200; contador++) {
 		if (contador % 4 == 0) {
-			printf(" ,%i");
+			printf(", %i", contador);
 		}
 	}
 	
-	printf(".");
+	printf(".\n\n");
 	
 	printf("Exercício 6 -------------------------------------------------\n\n");
 	
@@ -108,11 +125,13 @@ int main(void) {
 	Exibir os quadrados dos números inteiros de 15 a 200.
 	*/
 	
-	int a;
+	int a2;
 	
-	for (a = 15; a < 201; a++) {
+	for (a2 = 15; a2 < 201; a2++) {
 		printf("%a", a^2);
 	}
+	
+	printf("\n\n");
 
 	printf("Exercício 7 -------------------------------------------------\n\n");
 	
@@ -127,7 +146,27 @@ int main(void) {
 	
 	int potencia;
 
-	for (potencia)
+	for (potencia = 0; potencia < 15; potencia++) {
+		printf("3 elevado a %i = %i\n", potencia, 3 ^ potencia);
+	}
+
+	printf("\n");
+	
+	printf("Exercício 8 -------------------------------------------------\n\n");
+
+	/*
+	Crie um programa que exiba a série de Fibonacci até o décimo quinto
+	termo. A série de Fibonacci é formada pela seqüência: 1, 1, 2, 3, 5, 8, 13, 21,
+	34....etc. Essa série se caracteriza pela soma de um termo posterior com seu
+	anterior subseqüente.
+	*/
+
+	int A1, A2, A3;
+	
+	for (A1 = 1; A1 < 16; A1++) {
+		A3 = A1 + A2;
+		printf(" ,%i", A3);
+	}
 
 }
 
