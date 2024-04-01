@@ -19,20 +19,46 @@
 - Vai um e vem um se referem ao digito sobrante de uma outra casa, por exemplo: 1 + 9 = 10: vai um para a segunda casa e vem um pra segunda casa.
 - Se o digito mais significativo for 1, o número é negativo.
 
-000 0  0
-001 1  1
-010 2  2
-011 3  3
-100 4  -0
-101 5  -1
-110 6  -2
-111 7  -3
-
 <table>
   <tr>
     <td>000</td>
     <td>0</td>
     <td>0</td>
+  </tr>
+    <tr>
+    <td>001</td>
+    <td>1</td>
+    <td>1</td>
+  </tr>
+    <tr>
+    <td>010</td>
+    <td>2</td>
+    <td>2</td>
+  </tr>
+    <tr>
+    <td>011</td>
+    <td>3</td>
+    <td>3</td>
+  </tr>
+    <tr>
+    <td>100</td>
+    <td>4</td>
+    <td>-0</td>
+  </tr>
+    <tr>
+    <td>101</td>
+    <td>5</td>
+    <td>-1</td>
+  </tr>
+    <tr>
+    <td>110</td>
+    <td>6</td>
+    <td>-2</td>
+  </tr>
+    <tr>
+    <td>111</td>
+    <td>7</td>
+    <td>-3</td>
   </tr>
 </table>
 
@@ -90,3 +116,78 @@
 - Para os exercícios.
 - O neander não tem subtração, devemos somar a um número negativo.
 - O computador de 8 byts vai de 0 255 (11111111).
+
+- Se resulta em número negativo, o número fica em hexadeciamal.
+
+<table>
+  <tr>
+    <td>LDA 81</td>
+  </tr>  
+  <tr>
+    <td>NOT</td>
+  </tr>  
+  <tr>
+    <td>ADD 83</td>
+  </tr>  
+  <tr>
+    <td>STA 84</td>
+  </tr>  
+  <tr>
+    <td>LDA 80</td>
+  </tr>  
+  <tr>
+    <td>ADD 84</td>
+  </tr>  
+  <tr>
+    <td>STA 82</td>
+  </tr>
+</table>
+
+## Exercício 2
+
+- Faça um programa que realize subtrações consecutivas de -1 de um valor "a" (80h) e pare o código quando chegar em 0.
+
+Para 80 = 2 e 81 = -1.
+
+<table>
+  <tr>
+    <td>LDA 80</td>
+  </tr>
+  <tr>
+    <td>ADD 81</td>
+  </tr>
+  <tr>
+    <td>JZ</td>
+  </tr>
+  <tr>
+    <td>STA 80</td>
+  </tr>
+  <tr>
+    <td>JMP</td>
+  </tr>
+  <tr>
+    <td>HLT</td>
+  </tr>
+</table>
+
+LDA 80
+JN SAIR
+JZ SAIR
+ADD 81
+STA 80
+JMP INICIO
+HTL
+
+A prova será na próxima semana ainda, a gente ainda vai estudar memória.
+
+Não é aconcelhavel mas é uma forma também.
+
+LDA 80
+JN SAIR
+LDA 80
+JZ
+ADD 81
+STA 80
+JMP LAÇO
+HTL
+
