@@ -1,6 +1,4 @@
-/*Bibliotecas*/
 #include  <stdio.h>
-#include  <conio.h>
 
 /*
 VETOR
@@ -17,18 +15,15 @@ Vetor de char (string):
 
 - Sintaxe:
 	- char nome[99];
-	
-	 
 */
 	
 
-/*Corpo do programa*/
 int main () {
 	
 	char nome[99] = "Evandro"; 
 	int i;
 	
-	//Imprimindo parte de uma string
+	// Imprimindo parte de uma string
 	for (i = 0; i < 3; i++) {
 		printf("%c", nome[i]);
 	}
@@ -39,7 +34,7 @@ int main () {
 	
 	printf("\n-----------------------------------------------------------\n");
 
-	//Fazendo e imprimindo vetor com for
+	// Fazendo e imprimindo vetor com for
 	int vetor[10];
 	int i2;
 	
@@ -51,7 +46,7 @@ int main () {
 
 	printf("\n-----------------------------------------------------------\n");
 
-	//Fazendo e imprimindo vetor com while
+	// Fazendo e imprimindo vetor com while
 	while (i2 < 10) {
 		vetor[i2] = i2 * 2;
 		i2++;
@@ -69,7 +64,7 @@ int main () {
 	int A[9], B[9], C[9];
 	int i3;
 	
-	//Minha resolução
+	// Minha resolução
 	for (i3 = 0; i3 < 10; i3++) {
 		A[i3] = i3 * 2;
 	}
@@ -85,7 +80,7 @@ int main () {
 	
 	printf("\n-----------------------------------------------------------\n");
 
-	//Resolução menos verbosa
+	// Resolução menos verbosa
 	for (i3 = 0; i3 < 10; i3++) {
 	
 		A[i3] = i3 * 2;
@@ -97,7 +92,7 @@ int main () {
 	
 	printf("\n-----------------------------------------------------------\n");
 
-	
+	// Invertendo a ordem de uma lista
 	char V[10];
 	int j;
 	
@@ -105,6 +100,52 @@ int main () {
 		V[j] = j;
 		printf("%i\n", V[j]);
 	}
+
+	printf("\n-----------------------------------------------------------\n");
+
+	// Outra forma
+	int X[10], Y[10];
+	int i5, j2;
+	
+	for (i5 = 0; i5 < 10; i5++) {
+		X[i5] = i5 * 2;
+	}
+	
+	for (i5 = 0, j2 = 9; i5 < 10; i5++, j2--) {
+		Y[j2] = X[i5];
+	}
+	
+	for (i5 = 0; i5 < 10; i5++) {
+		printf("%i - %i\n", X[i5], Y[i5]);
+	}
+
+	printf("\n-----------------------------------------------------------\n");
+
+	// Invertendo os valores de dois vetores
+	int V1[10], V2[10], V3[10];
+	int indice;
+	
+	for (indice = 0; indice < 5; indice++) {
+		V1[indice] = indice;
+		V2[indice] = indice * 2;
+	}
+	
+	for (indice = 0; indice < 5; indice++) {
+		V3[indice] = V2[indice];
+		V2[indice] = V1[indice];
+		V1[indice] = V3[indice];
+		
+		printf("V1=%i | V2=%i \n", V1[indice], V2[indice]);
+	}
+
+	/*
+	Fazer esse exercício mais elaborado!!
+	Na prova pode ter uma consulta.
+	*/
+
+	printf("\n-----------------------------------------------------------\n");
+
+	
 
 }
 
