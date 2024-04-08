@@ -1,6 +1,7 @@
 # Aula 6 - Memória - 08/04/2024
 
 ![aula4-Memoria-Interna-Primaria-RAM-01](https://github.com/joserandu/Primeiro-semestre/assets/134299499/abecf90e-8b9a-4ba6-81e2-9c240b8dc40f)1
+<br>
 ![aula4-Memoria-Interna-Primaria-RAM-02](https://github.com/joserandu/Primeiro-semestre/assets/134299499/60f100d9-c64a-4436-94a7-b6b97e182c1e)2
 
 - Não conseguimos chegar no REM
@@ -18,6 +19,7 @@
 ![aula4-Memoria-Interna-Primaria-RAM-04](https://github.com/joserandu/Primeiro-semestre/assets/134299499/99cd0685-22a9-4fd1-9ae1-8235547507d7)4
 
 - RAM é de acesso aleatória (random).
+    - Random Access Memory.
 - O acesso é aleatório, mas o SO organiza os dados.
 
 - A RAM é uma memória de leitura e escrita.
@@ -62,20 +64,20 @@ Na prática
 - Até agora falamos da DRAM.
 - A memória cache é sram.
 
-![aula4-Memoria-Interna-Primaria-RAM-06](https://github.com/joserandu/Primeiro-semestre/assets/134299499/9b562592-3a74-4759-9d79-d00341af7af8)6
-![aula4-Memoria-Interna-Primaria-RAM-07](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d6044da2-d7bc-42d7-af40-e6729d84066d)7
-![aula4-Memoria-Interna-Primaria-RAM-08](https://github.com/joserandu/Primeiro-semestre/assets/134299499/36d7b371-026c-4658-b7ae-36ac04c51816)8
+![aula4-Memoria-Interna-Primaria-RAM-06](https://github.com/joserandu/Primeiro-semestre/assets/134299499/9b562592-3a74-4759-9d79-d00341af7af8)6<br>
+![aula4-Memoria-Interna-Primaria-RAM-07](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d6044da2-d7bc-42d7-af40-e6729d84066d)7<br>
+![aula4-Memoria-Interna-Primaria-RAM-08](https://github.com/joserandu/Primeiro-semestre/assets/134299499/36d7b371-026c-4658-b7ae-36ac04c51816)8<br>
 
 - Memória primaria e Memória RAM é a mesma coisa para nós.
 - Nós acessamos a memória por um agrupamento de bits, acessar um bit não faz nem sentido.
 
-![aula4-Memoria-Interna-Primaria-RAM-09](https://github.com/joserandu/Primeiro-semestre/assets/134299499/e9e24a6e-898b-46d6-95c8-64397f51e56f)9
+![aula4-Memoria-Interna-Primaria-RAM-09](https://github.com/joserandu/Primeiro-semestre/assets/134299499/e9e24a6e-898b-46d6-95c8-64397f51e56f)9<br>
 
 
-![aula4-Memoria-Interna-Primaria-RAM-10](https://github.com/joserandu/Primeiro-semestre/assets/134299499/2234dccd-07ac-4bc1-8122-29e20d4a91bf)10
+![aula4-Memoria-Interna-Primaria-RAM-10](https://github.com/joserandu/Primeiro-semestre/assets/134299499/2234dccd-07ac-4bc1-8122-29e20d4a91bf)10<br>
 
 
-![aula4-Memoria-Interna-Primaria-RAM-11](https://github.com/joserandu/Primeiro-semestre/assets/134299499/df2f96e0-2267-4a90-9e41-ed10761dc93a)11
+![aula4-Memoria-Interna-Primaria-RAM-11](https://github.com/joserandu/Primeiro-semestre/assets/134299499/df2f96e0-2267-4a90-9e41-ed10761dc93a)11<br>
 
 - Base binaria elevada ao número de bits, no caso 2 ^ 8 ou 2 ^ 12 ou 2 ^ 16.
 - O REM aponta onde está o dado, ou seja, ele trata do endereçamento.
@@ -83,38 +85,107 @@ Na prática
 
 - Nos dois últimos casos.
 
-![aula4-Memoria-Interna-Primaria-RAM-12](https://github.com/joserandu/Primeiro-semestre/assets/134299499/750aff90-5c80-4655-b730-2d380126066e)12
+![aula4-Memoria-Interna-Primaria-RAM-12](https://github.com/joserandu/Primeiro-semestre/assets/134299499/750aff90-5c80-4655-b730-2d380126066e)12<br>
 
 - Esses padrões são assim, por conta de direitos autorais.
 
-![aula4-Memoria-Interna-Primaria-RAM-13](https://github.com/joserandu/Primeiro-semestre/assets/134299499/e8d9003a-04e8-41c6-995a-1f0fec9324ce)13
+![aula4-Memoria-Interna-Primaria-RAM-13](https://github.com/joserandu/Primeiro-semestre/assets/134299499/e8d9003a-04e8-41c6-995a-1f0fec9324ce)<br>
 
-![aula4-Memoria-Interna-Primaria-RAM-14](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d4fa591e-a666-446a-ba7e-2452dd489d95)14
+![aula4-Memoria-Interna-Primaria-RAM-14](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d4fa591e-a666-446a-ba7e-2452dd489d95)14<br>
 
-![aula4-Memoria-Interna-Primaria-RAM-15](https://github.com/joserandu/Primeiro-semestre/assets/134299499/2bba30b2-ee97-4c65-b0f7-29e115c9737a)15
+- É a mesma ideia que a fonte de celular que tem led que a gente tira da tomada e demora um pouco para desligar totalmente.
 
-![aula4-Memoria-Interna-Primaria-RAM-16](https://github.com/joserandu/Primeiro-semestre/assets/134299499/cc0405c3-383b-4075-ae9d-30be10239973)16
+![aula4-Memoria-Interna-Primaria-RAM-15](https://github.com/joserandu/Primeiro-semestre/assets/134299499/2bba30b2-ee97-4c65-b0f7-29e115c9737a)15<br>
 
-![aula4-Memoria-Interna-Primaria-RAM-17](https://github.com/joserandu/Primeiro-semestre/assets/134299499/a91f7477-3ba2-475a-a4e9-532e8718da74)17
+- O chipset fica dentro da UCP (processador).
 
-![aula4-Memoria-Interna-Primaria-RAM-18](https://github.com/joserandu/Primeiro-semestre/assets/134299499/7aebbd8a-eed5-46a9-8004-ac282dfcb922)18
+![aula4-Memoria-Interna-Primaria-RAM-16](https://github.com/joserandu/Primeiro-semestre/assets/134299499/cc0405c3-383b-4075-ae9d-30be10239973)16<br>
 
-![aula4-Memoria-Interna-Primaria-RAM-19](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d95ac893-d2d6-4f57-9b91-8c08e4a0e655)19
+- Os chips de memória são frágeis e feitas de silício.
 
-![aula4-Memoria-Interna-Primaria-RAM-20](https://github.com/joserandu/Primeiro-semestre/assets/134299499/94546f89-4b0f-40bc-8a18-ee0c09ad7e24)20
+![aula4-Memoria-Interna-Primaria-RAM-17](https://github.com/joserandu/Primeiro-semestre/assets/134299499/a91f7477-3ba2-475a-a4e9-532e8718da74)<br>17
 
-![aula4-Memoria-Interna-Primaria-RAM-21](https://github.com/joserandu/Primeiro-semestre/assets/134299499/f44255ee-6434-4b10-9632-622c5dc1413a)21
+- Ficavam soldadas nas placas mães.
 
-![aula4-Memoria-Interna-Primaria-RAM-22](https://github.com/joserandu/Primeiro-semestre/assets/134299499/9ca293ed-30d6-4de6-b353-3aa77b8ed635)22
+![aula4-Memoria-Interna-Primaria-RAM-18](https://github.com/joserandu/Primeiro-semestre/assets/134299499/7aebbd8a-eed5-46a9-8004-ac282dfcb922)<br>18
 
-![aula4-Memoria-Interna-Primaria-RAM-23](https://github.com/joserandu/Primeiro-semestre/assets/134299499/1497e313-1596-49d3-b7e2-504e8f41e50f)23
+- Por estar soldado, era muito dificil de fazer a manutenção, então eles fizeram o módulo dip (pg 22)
+    - HOje estão assim.
+    - ![image](https://github.com/joserandu/Primeiro-semestre/assets/134299499/696af8a0-8eae-4c8a-8b11-944c966f1b75)    
 
-![aula4-Memoria-Interna-Primaria-RAM-24](https://github.com/joserandu/Primeiro-semestre/assets/134299499/f82e4b4e-6cd1-4c93-bb4c-ebc2853373d1)24
+    
 
-![aula4-Memoria-Interna-Primaria-RAM-25](https://github.com/joserandu/Primeiro-semestre/assets/134299499/a3a2029d-80e5-4fa1-9ed8-beedd47e17b0)25
+![aula4-Memoria-Interna-Primaria-RAM-19](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d95ac893-d2d6-4f57-9b91-8c08e4a0e655)<br>19
 
-![aula4-Memoria-Interna-Primaria-RAM-26](https://github.com/joserandu/Primeiro-semestre/assets/134299499/8d692147-2341-424a-b4a9-16e3d70bb439)26
+- Esses dois computadores (384 e 486) tinham 4 módulos de memória de 8 bits cada um, assim como na ímágem.
 
-![aula4-Memoria-Interna-Primaria-RAM-27](https://github.com/joserandu/Primeiro-semestre/assets/134299499/1708e58b-3a25-45a0-8b01-066f4826a74f)27
+![aula4-Memoria-Interna-Primaria-RAM-20](https://github.com/joserandu/Primeiro-semestre/assets/134299499/94546f89-4b0f-40bc-8a18-ee0c09ad7e24)<br>20
 
-![aula4-Memoria-Interna-Primaria-RAM-28](https://github.com/joserandu/Primeiro-semestre/assets/134299499/8aaa7acb-8b22-4451-9495-95a0605a29a7)28
+- posteriormente, foram criados computadores com processadores de mais bits.
+
+![aula4-Memoria-Interna-Primaria-RAM-21](https://github.com/joserandu/Primeiro-semestre/assets/134299499/f44255ee-6434-4b10-9632-622c5dc1413a)<br>21
+
+- Ele faz o que pode com 32 bits com a memória ram e outros 32 são usados pela memória cache.
+
+![aula4-Memoria-Interna-Primaria-RAM-22](https://github.com/joserandu/Primeiro-semestre/assets/134299499/9ca293ed-30d6-4de6-b353-3aa77b8ed635)<br>22]
+
+- 
+
+![aula4-Memoria-Interna-Primaria-RAM-23](https://github.com/joserandu/Primeiro-semestre/assets/134299499/1497e313-1596-49d3-b7e2-504e8f41e50f)<br>23
+
+- Escala de evolução do dip ao ddr 1 dimm (184 pin)
+
+![aula4-Memoria-Interna-Primaria-RAM-24](https://github.com/joserandu/Primeiro-semestre/assets/134299499/f82e4b4e-6cd1-4c93-bb4c-ebc2853373d1)<br>24
+
+- O módulo dip a gente não ve mais as perninhas de contato, agora é BGA, que são umas bolinhas internas.
+- Consertar uma memória RAM é possível, mas não é muito viável, por ser muito trabalhoso, mas é mais da parte de eletronica para fazer essa reforma.
+
+![aula4-Memoria-Interna-Primaria-RAM-25](https://github.com/joserandu/Primeiro-semestre/assets/134299499/a3a2029d-80e5-4fa1-9ed8-beedd47e17b0)<br>25
+
+- Essas são as bolinhas.
+- Um processador tem aproximadamente 40 bolinhas assim. Tem quem se arrisca,
+
+- SODIMM SDR é o que temos hoje nos notebooks.
+
+![aula4-Memoria-Interna-Primaria-RAM-26](https://github.com/joserandu/Primeiro-semestre/assets/134299499/8d692147-2341-424a-b4a9-16e3d70bb439)<br>26
+
+- 
+
+
+![aula4-Memoria-Interna-Primaria-RAM-27](https://github.com/joserandu/Primeiro-semestre/assets/134299499/1708e58b-3a25-45a0-8b01-066f4826a74f)<br>27
+
+-
+
+![aula4-Memoria-Interna-Primaria-RAM-28](https://github.com/joserandu/Primeiro-semestre/assets/134299499/8aaa7acb-8b22-4451-9495-95a0605a29a7)<br>28
+
+- Esse é um comando que mostra qual é a frequência.
+
+O professor vai passar para a gente o formato de funcionamento do Neander. 
+(Está bem resumido, copia e cola aqui os slides.
+
+- Lembra que o funcionamento é de 1 byte (8 bits).
+
+- O not tem um ciclo de busca menor, porque é apenas uma instrução.
+- 
+
+Anotações:
+
+- Baixar o Neander do link e mudar o nome do arquivo para .exe ao invés de .bin.
+
+  A Avaliação:
+
+  Duas partes:
+
+  - Parte escrita antes do intervalo.
+      - Conceitos dos slide, mas se não lembrar de algo, livro do tanembawn.    
+  - Parte prática com 2 exercícios no Neander.
+      - Vai cair saltos, pratíque.
+
+Exercício
+
+- Neander-multiplicação
+- Faça um programa que multiplique dois valores inteiros ("a" e "b") alocados nos endereços 80h e 81h respectivamente. O resultado da multiplicação não deverá exceder 255 em decimal.
+    - No ISA não tem multiplicação
+ 
+- Entregar esse exercício depois. (semana 6) em formato arquivo.main 
+- 
