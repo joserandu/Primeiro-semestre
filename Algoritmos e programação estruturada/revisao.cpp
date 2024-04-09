@@ -110,9 +110,56 @@ int main(void) {
 	
 	for (i = 10, j = 0; j < i; j++) {
 		printf("%i: ", i);
-		printf("%i |", j);]
+		printf("%i |", j);
 		i--;  // Mesma coisa que colocar no início.
 	}
+	
+	printf("\n\nExercícios -------------------------------------------------------\n\n");
+	
+	/*
+	Construa um loop que inicia em 0 e vai até 100. Toda vez que o valor da variável de controle for multiplo de 2 e de 3 simultaneamente deverá imprimir na tela o valor desta variável.
+	*/
+	
+	int num;
+	
+	for (num = 0; num <= 100; num++) {
+		
+		if (num % 2 == 0 && num % 3 == 0) {
+			printf("%i ", num);
+		}
+		
+	}
+	
+	printf("\n\n");
+	
+	int esporte;
+	
+	do {
+		
+		printf("Digite o código do esporte: ");
+		scanf("%i", &esporte);
+		
+		switch (esporte) {
+			case 1:
+				printf("Natação.\n");
+				break;
+			case 2:
+				printf("Basquetebol.\n");
+				break;
+			case 3:
+				printf("Volei.\n");
+				break;
+			case 4:
+				printf("Atletísmo.\n");
+				break;
+			case 5:
+				printf("Seção encerrada.\n");
+				break;
+			default:
+				printf("Digite um número válido.\n");				
+		}
+		
+	} while (esporte != 5);
 	
 }
 
