@@ -114,7 +114,7 @@ int main(void) {
 		i--;  // Mesma coisa que colocar no início.
 	}
 	
-	printf("\n\nExercícios -------------------------------------------------------\n\n");
+	printf("\n\nExercício 1 -------------------------------------------------------\n\n");
 	
 	/*
 	Construa um loop que inicia em 0 e vai até 100. Toda vez que o valor da variável de controle for multiplo de 2 e de 3 simultaneamente deverá imprimir na tela o valor desta variável.
@@ -129,6 +129,9 @@ int main(void) {
 		}
 		
 	}
+	
+	printf("\n\nExercício 2 -------------------------------------------------------\n\n");
+
 	
 	printf("\n\n");
 	
@@ -161,8 +164,31 @@ int main(void) {
 		
 	} while (esporte != 5);
 	
+	printf("\n\nExercício 3 -------------------------------------------------------\n\n");
+
+//	Fibonacci
+	
+	int a = 1, b = 1, c = 1, n;
+	
+	printf("Digite a quantidade de elementos da série de Fibonacci que você deseja: ");
+	scanf("%i", &n);
+	
+	for (i = 1; i <= n; i++) {
+		c = a + b;
+		a = b;
+		b = c;
+		printf("%i ", a);
+	}
+	
 }
 
 /*
 Na prova o que será mais cobrado é a lógica, esquecer ponto e virgula não tira ponto.
+
+Pra fazer um número elevado a outro:
+#include <math.h>
+pow(base, potencia)
 */
+
+
+
