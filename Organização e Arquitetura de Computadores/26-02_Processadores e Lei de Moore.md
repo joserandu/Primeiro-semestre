@@ -51,14 +51,8 @@
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-48](https://github.com/joserandu/Primeiro-semestre/assets/134299499/59d58a3d-5a7b-405a-9194-ed7126b241d4)
 
 
-
-
-<b>OBSERVAÇÃO: A aula está incompleta por falta de acesso aos slides, pois as anotações foram feitas como complementos à esse material da aula.</b>
-
 <h3>Sobre as aulas</h3>
 
-- No primeiro slide tem a referência das aulas.
-  -	Slides disponíveis no moodle. Senha: organizaçãoearquiteturadecomputadores (a confirmar)
 -	CPU, diferente do que muitos técnicos de informática dizem, não é o gabinete, é um componente dentro da placa-mãe que é chamado popularmente de processador, mas esse nome não é muito preciso, o nome certo é UCP (Unidade Central de Processamento).
   -	O pessoal do Hardware as vezes usa uns nomes que não são técnicos, como por exemplo Voltagem, sendo que o nome correto é Tensão.
 
@@ -79,4 +73,4 @@
     -	Computador Pentium 4: 64 bits.
     - Durante um tempo, os computadores tinham 64 bits, mas os sistemas operacionais tinham apenas 32, mas mesmo assim, os sistemas conseguiam rodar normalmente, por que não mudava a arquitetura dos computadores.
 -	2/3 da memória dos transistores é cache.
--	Hoje são aproximadamente 50 bilhões de ____ (acho que bits).
+-	Hoje são aproximadamente 50 bilhões de transistores.
