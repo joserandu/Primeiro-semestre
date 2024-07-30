@@ -35,9 +35,10 @@ int main(void) {
 	
 	while (resposta[99] != "s" && i < 4) {
 		
-		printf("Nome: ");
-		scanf("%c", &resposta[i][0]);
-		cadastro[i][99]
+		for (int j = 0; j<4; j++) {
+			printf("Nome: ");
+			scanf("%c", &resposta[i][0]);
+			cadastro[i][j] = resposta[i][0];
 		
 		printf("Endereço: ");
 		scanf("%c", &resposta[i][1]);
@@ -52,6 +53,8 @@ int main(void) {
 		
 		printf("Deseja sair? (s/n)");
 		scanf("%c", &resposta);
+		}
+		
 
 	}
 	
