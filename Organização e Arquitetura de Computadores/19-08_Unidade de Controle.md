@@ -28,3 +28,24 @@
 ![aula8-UnidadeControle_page-0016](https://github.com/user-attachments/assets/2dbe040e-c28b-40b7-9e92-fcaf380d3df4)
 ![aula8-UnidadeControle_page-0017](https://github.com/user-attachments/assets/58dd50a8-ad5a-44c9-b634-7d9710853e34)
 ![aula8-UnidadeControle_page-0018](https://github.com/user-attachments/assets/fe3e88b4-518c-435f-8330-b7202d056fc8)
+
+
+- Exercício 5
+
+INICIO:
+    MOV BX, 5000h
+    MOV DX, 01h
+    MOV SS, BX
+    MOV SP, 0FFFFh
+    MOV CX, 00h
+    JMP salto
+    HLT
+    
+salto:
+    MOV AX, 0BBh
+    PUSH AX
+    SUB DX, SP
+    CMP SP, CX
+    JA salto
+    RET inicio   
+   
