@@ -63,6 +63,9 @@
 ![AulaMicroarquitetura-MIPS-HarrisHarris_page-0034](https://github.com/user-attachments/assets/c42c30fc-6e1b-477b-87f6-69403577a5cb)
 ![AulaMicroarquitetura-MIPS-HarrisHarris_page-0035](https://github.com/user-attachments/assets/872fe506-3ebb-4fe5-8107-5848b0df50fd)
 ![AulaMicroarquitetura-MIPS-HarrisHarris_page-0036](https://github.com/user-attachments/assets/1f0af181-98d8-4142-b762-ee7d6cbd8a60)
+
+- O que precisamos saber é o funcionamento da ula, mas não ignore as outras partes.
+
 ![AulaMicroarquitetura-MIPS-HarrisHarris_page-0037](https://github.com/user-attachments/assets/fd0fc206-d2da-4f91-b03e-0fcc819bd328)
 ![AulaMicroarquitetura-MIPS-HarrisHarris_page-0038](https://github.com/user-attachments/assets/4e554222-c690-4419-aa2f-1d02da3f8328)
 ![AulaMicroarquitetura-MIPS-HarrisHarris_page-0039](https://github.com/user-attachments/assets/e36ea8f7-7592-488e-a4fb-621069358bec)
