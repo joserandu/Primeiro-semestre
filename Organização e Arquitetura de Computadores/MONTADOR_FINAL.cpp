@@ -46,17 +46,23 @@ int main() {
     unsigned char cabecalho[] = {0x03, 0x4E, 0x44, 0x52};
     fwrite(cabecalho, sizeof(unsigned char), 4, arqG);
 	
+	// Loop para leitura das linhas
     while (fgets(textoLido, sizeof(textoLido), arqL) != NULL) {
-        size_t len = strlen(textoLido);  // Remove o caractere de nova linha, se presente
+    	
+    	// Remove o caractere de nova linha, se presente
+        size_t len = strlen(textoLido);  
         if (len > 0 && textoLido[len - 1] == '\n') 
             textoLido[len - 1] = '\0';
        	
+       	// Garantir que a string está terminada
         char strCopy[50];
         strncpy(strCopy, textoLido, sizeof(strCopy) - 1);
-        strCopy[sizeof(strCopy) - 1] = '\0';  // Garantir que a string está terminada
+        strCopy[sizeof(strCopy) - 1] = '\0';  
     
-        char *token = strtok(strCopy, " ");     // strtok para separar a instrução
-
+    	// Separar a instrução
+        char *token = strtok(strCopy, " ");     
+		
+		//Adicionanando separador
         int Separador = 0;
         while (token != NULL) {
             if (Separador == 0)
@@ -66,9 +72,10 @@ int main() {
             token = strtok(NULL, " ");
             Separador++;
         }
-    
+    	
+    	// Traduzindo as instruções para Unsigned Char
         unsigned char InstrucoesInscritas; 
-        // Traduz as Instruções para Unsigned Char
+        
         if (strcmp(Instrucoes, "NOP") == 0)
             InstrucoesInscritas = 0x00;
         else if (strcmp(Instrucoes, "STA") == 0)
@@ -92,8 +99,9 @@ int main() {
         else if (strcmp(Instrucoes, "HLT") == 0)
             InstrucoesInscritas = 0xF0;
         
-        unsigned char EnderecoInscrito = 0x00; // Inicializa o Endereço
-        if (Separador > 1) // Se houver um endereço na linha
+        // Inicializa o Endereço
+        unsigned char EnderecoInscrito = 0x00; 
+        if (Separador > 1) 
             EnderecoInscrito = (unsigned char)strtoul(Endereco, NULL, 16);
         
         // Escreve as instruções no arquivo
@@ -112,4 +120,3 @@ int main() {
 
     return 0;
 }
-
