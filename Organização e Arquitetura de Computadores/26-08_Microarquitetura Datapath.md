@@ -1,7 +1,7 @@
 # Microarquitetura Datapath - Unidade de Controle | 26/08/2024
 
 ## Entregar o montador hoje.
-- Falar se utilizou sistema Windons ou Linux.
+- Falar se utilizou sistema Windons ou Linux..
 - Colocar onde foi compilado (C++);
 
 - ||||A entrega do montador é na semana 14
