@@ -3,6 +3,31 @@
 #include <stdlib.h>
 #include <locale.h>
 
+/*
+MONTADOR NEANDER - Instruções
+
+	Sistema Operacional: Windows;
+
+	Local de execução: Dev C++;
+		- Não foi testado em outra IDE.
+		- O aplicativo gerado no formado de .exe, que também está em anexo, também 
+		pode ser executado no terminal do diretório onde estiver o arquivo para
+		leitura.
+
+	Instruções do programa:
+	
+	1 - Ao compilar e executar esse código, será perguntado ao usuário o nome do 
+	arquivo que ele deseja ler (digite prog1.asm, como estava no enunciado 
+	dessa atividade ou algum outro que deseje ler).
+	
+	2 - Após teclar enter, será perguntado qual é o nome do arquivo que deseja 
+	gerar (digite prog1.mem, ou qualquer outro nome de arquivo .mem que quiser
+	nomear o seu arquivo).
+	
+	3 - Execute o arquivo .mem no Neander.
+
+*/
+
 int main() {
     setlocale(LC_ALL, "Portuguese");
 
@@ -54,12 +79,12 @@ int main() {
         if (len > 0 && textoLido[len - 1] == '\n') 
             textoLido[len - 1] = '\0';
        	
-       	// Garantir que a string está terminada
+       	// Copiando a string original
         char strCopy[50];
         strncpy(strCopy, textoLido, sizeof(strCopy) - 1);
         strCopy[sizeof(strCopy) - 1] = '\0';  
     
-    	// Separar a instrução
+    	// Separar a instrução e o endereço
         char *token = strtok(strCopy, " ");     
 		
 		//Adicionanando separador
@@ -99,7 +124,7 @@ int main() {
         else if (strcmp(Instrucoes, "HLT") == 0)
             InstrucoesInscritas = 0xF0;
         
-        // Inicializa o Endereço
+        // Verifica existencia de um endereço e o salva para impressão
         unsigned char EnderecoInscrito = 0x00; 
         if (Separador > 1) 
             EnderecoInscrito = (unsigned char)strtoul(Endereco, NULL, 16);
