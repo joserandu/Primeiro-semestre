@@ -1,6 +1,14 @@
 # Microarquitetura Datapath - Unidade de Controle | 26/08/2024
 
+## Entregar o montador hoje.
+- Falar se utilizou sistema Windons ou Linux.
+- Colocar onde foi compilado (C++);
+
 - ||||A entrega do montador é na semana 14
+- |||| Pode cair na prova mas será contextualizado com a ULA.
+- <b>Ver o acesso no SUAP.</b>
+- Barramento, E/s, unidade de controle, seria bom revisar um pouco.
+- 
 
 - Datapath (caminho de dados) é uma coleção de unidades funcionais, como unidades lógicas aritméticas ou multiplicadores que executam operações de processamento de dados, registradores e barramentos. Junto com a unidade de controle compõe a unidade central de processamento
 
