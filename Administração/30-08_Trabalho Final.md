@@ -2,3 +2,4 @@
 
 - Só pode preencher as célular azuis e amarelas.
 - Atenção às abas.
+- Pode entregar uma prévia até segunda a tarde.
