@@ -68,7 +68,7 @@ int main(void){
 	// CRIANDO UMA VARIÁVEL PONTEIRO PARA O ARQUIVO
 	
 	FILE *arq;
-	int a = 10;
+	a = 10;
 	
 	// Abrindo um arquivo
 	arq = fopen("arquivo.txt", "a");  // nome, tipo
