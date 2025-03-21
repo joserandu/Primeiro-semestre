@@ -1,4 +1,4 @@
-<h1>_Nome da aula_ - 26/02/2024</h1>
+<h1>Introdução_Processadores e Lei de Moore - 26/02/2024</h1>
 
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-01](https://github.com/joserandu/Primeiro-semestre/assets/134299499/8460af60-1d8c-4f85-ae5e-7b48e78db8de)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-02](https://github.com/joserandu/Primeiro-semestre/assets/134299499/583af0e8-db2b-499f-8337-c3030879c4bb)
