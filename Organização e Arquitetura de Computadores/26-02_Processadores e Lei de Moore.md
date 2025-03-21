@@ -33,6 +33,9 @@
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-17](https://github.com/joserandu/Primeiro-semestre/assets/134299499/afde99d8-0d27-4890-9905-2e7e620000a2)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-18](https://github.com/joserandu/Primeiro-semestre/assets/134299499/e34d38b8-730e-4b7f-9af1-524490f7e62e)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-19](https://github.com/joserandu/Primeiro-semestre/assets/134299499/504843a3-347a-46c3-8f94-b4fd106f3944)
+
+- Esse foi um computador.
+
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-20](https://github.com/joserandu/Primeiro-semestre/assets/134299499/c6efbdc2-0211-446b-8edc-f943d796e0d2)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-21](https://github.com/joserandu/Primeiro-semestre/assets/134299499/df42f5ef-6b2f-4898-bb57-3a344bcb2d68)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-22](https://github.com/joserandu/Primeiro-semestre/assets/134299499/414f161f-2045-4463-a61f-aa6963abaac9)
@@ -44,7 +47,6 @@
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-28](https://github.com/joserandu/Primeiro-semestre/assets/134299499/46f5cceb-a89c-4859-9a49-8d9253caa7f7)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-29](https://github.com/joserandu/Primeiro-semestre/assets/134299499/3c67d414-caac-4c56-8482-adb4c68f8a6b)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-30](https://github.com/joserandu/Primeiro-semestre/assets/134299499/f23701f0-8213-410d-9efd-65b5583c4dc1)
-
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-31](https://github.com/joserandu/Primeiro-semestre/assets/134299499/d8a8e3b5-bc5a-4185-88c8-c278fd3e01a1)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-32](https://github.com/joserandu/Primeiro-semestre/assets/134299499/883cb0b9-522f-429a-8c8c-6ee89fd775be)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-33](https://github.com/joserandu/Primeiro-semestre/assets/134299499/0ff6022d-b821-4065-af64-447b53b59190)
@@ -55,7 +57,17 @@
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-38](https://github.com/joserandu/Primeiro-semestre/assets/134299499/cbc6f125-8833-45fe-8cf1-deac6fd04961)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-39](https://github.com/joserandu/Primeiro-semestre/assets/134299499/da585807-37b3-4ce3-a861-f7bb777129b9)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-40](https://github.com/joserandu/Primeiro-semestre/assets/134299499/19103e8b-1f01-419f-9ab9-f77130c41aca)
+
+- Lisa:
+  - ![Image](https://github.com/user-attachments/assets/d0baec08-63b5-4e44-9fcd-c1155843d7de)
+
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-41](https://github.com/joserandu/Primeiro-semestre/assets/134299499/bbe1b9f9-13da-4b34-afdc-7353ce39e8e9)
+
+- Se uma máquina tem 3 Ghz, ela faz 3 bilhões de cíclos por segundo.
+  - No caso estamos lidando com Mhz.
+
+- O máximo que a tecnologia hoje permite acumular em uma memória RAM é 200 Gb.
+
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-42](https://github.com/joserandu/Primeiro-semestre/assets/134299499/2c18c65c-ccd7-419e-adee-e828f81492f5)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-43](https://github.com/joserandu/Primeiro-semestre/assets/134299499/f8a3db12-711f-4765-9ea4-5556c4894a50)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-44](https://github.com/joserandu/Primeiro-semestre/assets/134299499/939d7833-ea89-4bd3-a7d5-a6cbb6095681)
@@ -63,7 +75,6 @@
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-46](https://github.com/joserandu/Primeiro-semestre/assets/134299499/8ad4835d-0e42-406e-96ee-5e45c763b7a7)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-47](https://github.com/joserandu/Primeiro-semestre/assets/134299499/102e2e6c-dc2c-4f38-9f55-8abba1b2df4d)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-48](https://github.com/joserandu/Primeiro-semestre/assets/134299499/59d58a3d-5a7b-405a-9194-ed7126b241d4)
-
 
 <h3>Sobre as aulas</h3>
 
