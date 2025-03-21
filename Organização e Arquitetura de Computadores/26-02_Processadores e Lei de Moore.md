@@ -5,12 +5,26 @@
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-03](https://github.com/joserandu/Primeiro-semestre/assets/134299499/771a9005-8bf6-406d-a453-228448e9f45a)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-04](https://github.com/joserandu/Primeiro-semestre/assets/134299499/dfe461cc-f7ad-4e74-8adf-14522f2ba074)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-05](https://github.com/joserandu/Primeiro-semestre/assets/134299499/e0769ba2-b29c-4420-a08b-fb8bfc956c53)
+
+- A cada um ano e meio iria dobrar o número de transistores.
+
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-06](https://github.com/joserandu/Primeiro-semestre/assets/134299499/73be4ebf-6697-4f63-9075-dfac64daa3b5)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-07](https://github.com/joserandu/Primeiro-semestre/assets/134299499/138c875c-8d76-4354-bd48-35489a63b582)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-08](https://github.com/joserandu/Primeiro-semestre/assets/134299499/c0c82b0c-4464-4f1e-aef8-9534c2944a85)
+
+- Na verdade acabou dobrando a cada 2 anos, e não em um ano e meio, como ele previo.
+
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-09](https://github.com/joserandu/Primeiro-semestre/assets/134299499/5eeef705-614f-4d52-a1cd-33e132a409b8)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-10](https://github.com/joserandu/Primeiro-semestre/assets/134299499/e5f10c2a-6282-4a4b-bf65-4fa36fba2b1c)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-11](https://github.com/joserandu/Primeiro-semestre/assets/134299499/ac1aca37-1722-47f2-8b61-d23a81393cb5)
+
+- O Conjunto de transistores é um circuito integrado:
+  - ![Image](https://github.com/user-attachments/assets/5aa0fe7e-d5a4-4720-9c2b-918e927241b7)
+
+- Medimos o número de operações por minuto como <b>FLOPs</b>.
+    - FL quer dizer ponto flutuante.
+    - Antes era o MIPs.
+
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-12](https://github.com/joserandu/Primeiro-semestre/assets/134299499/de9d3c84-b309-421e-991c-abfa21e40dae)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-13](https://github.com/joserandu/Primeiro-semestre/assets/134299499/23f70f1e-d4a9-44b6-8a08-466264e269cf)
 ![aula2-Evolucao-VonNeumann-IntroducaoCPU-14](https://github.com/joserandu/Primeiro-semestre/assets/134299499/6f36f205-2759-4d21-9368-2dc6aa46b3e2)
