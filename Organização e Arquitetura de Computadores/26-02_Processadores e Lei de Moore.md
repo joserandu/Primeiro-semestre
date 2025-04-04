@@ -96,6 +96,12 @@
   -	Em cima os registradores com os valores de entrada.
   -	Em baixo os registradores com os valores de saída.
 
+## ISA (Instruction Set Arquitecture)
+
+- RISC: ISA muito simples.
+  - Processador mais rápido, mas o programador tem mais trabalho
+- CISC: ISA muito complexa.
+  - Menos rápido, mas para o programador é mais difícil, pois tem que escrever compilador (PESQUISAR)
 <hr>
 
 -	No nosso curso vamos EMULAR o funcionamento dela com os softwares.
