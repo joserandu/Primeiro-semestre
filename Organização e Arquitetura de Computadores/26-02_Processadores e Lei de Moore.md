@@ -82,8 +82,22 @@
   -	O pessoal do Hardware as vezes usa uns nomes que não são técnicos, como por exemplo Voltagem, sendo que o nome correto é Tensão.
 
 <h3>A CPU</h3>
+<hr>
 
+- A CPU é formada pela unidade de controle, pela ULA e pelos registradores.
 -	A ULA trata dos operadores lógicos do sistema.
+  -	Os valores de entrada são os operandos que chegam dos registradores de entrada e chegam aos registradores de saída para serem gravados na memória.
+  -	Do lado esquerdo do V estão os operadores lógicos (add, and, or, not).
+  -	Do lado direito são as flags (ZF e SF)
+    -	Quando a flag de zero (zf) quando vale 1 é porque o resultado deu zero.
+    -	Flag de sinal: indica se o sinal de uma operação é positivo ou negativo.
+    -	Carry representa o mais-um menos-um(?).
+  -	O registrador a do neander armazena a resposta.
+  -	Em cima os registradores com os valores de entrada.
+  -	Em baixo os registradores com os valores de saída.
+
+<hr>
+
 -	No nosso curso vamos EMULAR o funcionamento dela com os softwares.
 -	Emular x Simular:
     -	<b>Simular</b>: Simular um comportamento do mundo real, como um jogo de vídeo game ou um simulador de autoescola.
