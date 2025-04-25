@@ -4,6 +4,7 @@
 <br>
 ![aula4-Memoria-Interna-Primaria-RAM-02](https://github.com/joserandu/Primeiro-semestre/assets/134299499/60f100d9-c64a-4436-94a7-b6b97e182c1e)2
 
+- O valor do REM é esse dado: LDA <b>80</b>
 - Não conseguimos chegar no REM
 - Ele tem uma ligação com o contador.
 - A seta dupla quer dizer que o dado vai do registrador e vai para a memória e vice-versa.
@@ -49,8 +50,10 @@ A função mais básica do capacitor é a de armazenar cargas elétricas em seu 
     - ![image](https://github.com/joserandu/Primeiro-semestre/assets/134299499/deb5f420-91ad-4508-b5a8-762199a8e415)
         - Essa tem bateria e uma memória reserva e bateria.
     - HOje a gente já usa mais a memória flash, que é a tecnologia do pendrive.
+ 
+- A memória E2PROM é a mais utilizada hoje porque dá para ler e gravar arquivos.
 
-A memória flash
+### A memória flash
 
 - Tecnologia do pendrive.
 - O nível de bloco é um bloco de bytes, ou seja, vai apagando em bloco de bytes.
